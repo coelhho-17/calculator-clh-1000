@@ -391,13 +391,13 @@ impl eframe::App for App {
                             }
                         });
 
-                        ui.add_space(4.0);
+                        ui.add_space(0.0);
 
                         // linha superior — fórmula (matriz de pontos, alinhada à direita, largura fixa, clip à esquerda)
                         let avail = ui.available_width();
                         {
                             let (rect, _) =
-                                ui.allocate_exact_size(egui::vec2(avail, 22.0), egui::Sense::hover());
+                                ui.allocate_exact_size(egui::vec2(avail, 30.0), egui::Sense::hover());
                             let painter = ui.painter().with_clip_rect(rect.intersect(ui.clip_rect()));
                             painter.text(
                                 rect.right_center(),
@@ -408,7 +408,7 @@ impl eframe::App for App {
                             );
                         }
 
-                        ui.add_space(3.0);
+                        ui.add_space(2.0);
 
                         // linha inferior — resultado (7 segmentos, alinhado à direita, largura fixa, clip à esquerda)
                         let result_font = if expo {

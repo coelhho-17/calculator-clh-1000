@@ -1,4 +1,4 @@
-//! calculator-clh-1000 — calculadora científica de desktop (estilo clássico de 2 linhas).
+//! CALCULATOR CLH-1000 — calculadora científica de desktop (estilo clássico de 2 linhas).
 //!
 //! Estrutura:
 //! - `parser`: avaliador de expressão (port de FourthActivity.eval) + funções

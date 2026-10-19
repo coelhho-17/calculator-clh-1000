@@ -4,6 +4,9 @@ Calculadora científica de desktop para Windows, reimplementada em **Rust + egui
 Motor fiel (parser, matemática, estatística, frações) com UI de fidelidade industrial ao
 leiaute de uma calculadora científica clássica de 2 linhas (estilo Casio fx-82MS).
 
+<img width="537" height="858" alt="image" src="https://github.com/user-attachments/assets/ee717c8d-0a64-4393-96d5-30dd9f4e6824" />
+
+
 ## Funcionalidades
 
 - Trigonometria em graus: sin, cos, tan + inversas (sin⁻¹, cos⁻¹, tan⁻¹).
